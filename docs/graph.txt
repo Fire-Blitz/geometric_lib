@@ -1,0 +1,25 @@
+* 26f9de8 (HEAD -> new_features_465941) added some advanced optimized geometry formulas
+* b5f75be forgor to save the rectangle, added triangle.py
+* 09f5bc6 added rectangle ong
+* d078c8d (origin/main, origin/HEAD, main) L-03: Docs added
+* 8ba9aeb L-03: Circle and square added
+
+
+#current branch only
+* commit 26f9de8403520fe2a3ffdc2d3e5cccf231d74127 (HEAD -> new_features_465941)
+| Author: Fire_Blitz <fireblitzwin@gmail.com>
+| Date:   Fri Sep 20 10:42:28 2024 +0300
+|
+|     added some advanced optimized geometry formulas
+|
+* commit b5f75be70ae951f1c7e47eaaad001552b28d0aa2
+| Author: Fire_Blitz <fireblitzwin@gmail.com>
+| Date:   Fri Sep 20 10:39:52 2024 +0300
+|
+|     forgor to save the rectangle, added triangle.py
+|
+* commit 09f5bc60c0b58c012283d59b18fb342afbe98837
+  Author: Fire_Blitz <fireblitzwin@gmail.com>
+  Date:   Fri Sep 20 10:35:09 2024 +0300
+
+      added rectangle ong
