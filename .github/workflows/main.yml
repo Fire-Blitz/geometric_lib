@@ -1,0 +1,24 @@
+name: CI test
+
+on:
+  push:
+    branches: [main]
+    
+jobs:
+  test:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+
+    steps:      
+      - name: setup
+        uses: actions/checkout@v4
+      
+      - name: python setup
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+      
+      - name: tests
+        run: python -m unittest rectangle.py square.py triangle.py circle.py
